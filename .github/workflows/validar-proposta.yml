@@ -1,0 +1,9 @@
+name: Validar Proposta
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validar-proposta:
+    uses: profBruno-UFC-Qx/kit-projeto-final/.github/workflows/validar-proposta.yml@main

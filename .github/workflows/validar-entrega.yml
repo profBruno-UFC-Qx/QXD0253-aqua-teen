@@ -1,0 +1,9 @@
+name: Validar Entrega
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validar-entrega:
+    uses: profBruno-UFC-Qx/kit-projeto-final/.github/workflows/validar-entrega.yml@main

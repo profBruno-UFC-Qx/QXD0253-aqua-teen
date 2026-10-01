@@ -1,30 +1,104 @@
-# :checkered_flag: NOME DO PROJETO
+:checkered_flag: Feira Digital
 
-Breve descrição do que o seu projeto faz.
+Feira Digital — Plataforma de Divulgação e Comercialização para Feirantes e Produtores Locais
 
-## :technologist: Membros da equipe
+A Feira Digital é uma plataforma web destinada à divulgação e comercialização de produtos de feirantes e pequenos produtores locais. A aplicação permitirá o cadastro e gerenciamento de produtos, disponibilização de um catálogo público e realização de pedidos ou reservas, aproximando comerciantes e consumidores por meio de uma solução digital simples e acessível.
 
-Matrícula, nome e curso dos participantes.
+:technologist: Membros da equipe
+Alfredo Borges do Nascimento Neto — Matrícula: 564732 — Curso: Redes de Computadores
+Francisco Lucas Gomes Almeida — Matrícula: 592740 — Curso: Engenharia de Software
+Ryan Lopes Braga Brito — Matrícula: 578267 — Curso: Engenharia de Software
+:bulb: Objetivo Geral
 
-## :bulb: Objetivo Geral
-Descrever o objetivo de geral do projeto
+Desenvolver uma plataforma web funcional para divulgação e comercialização de produtos de feirantes e pequenos produtores locais, permitindo o cadastro e gerenciamento de produtos, consulta de um catálogo público e realização ou gerenciamento de pedidos ou reservas.
 
-## :eyes: Público-Alvo
-Público-alvo do projeto
+A aplicação deverá possuir autenticação e diferentes perfis de usuário, além de integrar o frontend ao backend desenvolvido com Strapi por meio de uma API REST.
 
-## :star2: Impacto Esperado
-Descreva o impacto esperado do projeto em relação ao público alvo
+:eyes: Público-Alvo
 
-## :people_holding_hands: Papéis ou tipos de usuário da aplicação
+O público-alvo principal é formado por feirantes e pequenos produtores locais, especialmente aqueles que possuem pouca presença digital e necessitam de uma forma simples e organizada de divulgar seus produtos.
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
+A plataforma também será destinada aos consumidores locais, que poderão consultar os produtos disponíveis, seus preços e informações e realizar pedidos ou reservas.
 
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
+:star2: Impacto Esperado
 
-## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
+Espera-se ampliar a presença digital dos feirantes e pequenos produtores locais, facilitando a divulgação de seus produtos e aproximando comerciantes e consumidores.
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
+Para os consumidores, a plataforma deverá facilitar o acesso às informações sobre produtos, preços e disponibilidade. Para os comerciantes, deverá oferecer uma ferramenta centralizada para organização e divulgação de seus produtos.
 
-## :spiral_calendar: Entidades ou tabelas do sistema
+:people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Liste as principais entidades do sistema.
+A aplicação possuirá diferentes tipos de usuário, com funcionalidades e permissões específicas:
+
+Usuário não autenticado
+Acessar a plataforma;
+Visualizar o catálogo público;
+Consultar produtos disponíveis;
+Visualizar informações dos produtos e comerciantes.
+Consumidor
+Realizar cadastro e login;
+Consultar o catálogo;
+Pesquisar produtos;
+Visualizar informações dos produtos;
+Realizar pedidos ou reservas;
+Gerenciar seus pedidos ou reservas.
+Feirante / Produtor
+Realizar cadastro e login;
+Gerenciar seu perfil;
+Cadastrar produtos;
+Editar produtos;
+Excluir produtos;
+Adicionar imagens aos produtos;
+Gerenciar informações de preço e disponibilidade;
+Gerenciar pedidos ou reservas relacionados aos seus produtos.
+Administrador
+Gerenciar usuários;
+Gerenciar feirantes e produtos;
+Gerenciar informações da plataforma;
+Administrar os recursos de acordo com suas permissões.
+:triangular_flag_on_post: Principais funcionalidades da aplicação
+Funcionalidades acessíveis a todos os usuários
+Acesso à plataforma web;
+Visualização do catálogo público;
+Consulta e pesquisa de produtos;
+Visualização de informações dos produtos;
+Visualização de preços, fotos e disponibilidade.
+Funcionalidades restritas a usuários autenticados
+Cadastro e login;
+Autenticação;
+Controle de acesso;
+Acesso às funcionalidades de acordo com o perfil do usuário.
+Funcionalidades para feirantes e produtores
+Cadastro de produtos;
+Edição de produtos;
+Exclusão de produtos;
+Upload de imagens;
+Gerenciamento de preços e disponibilidade;
+Gerenciamento de pedidos ou reservas.
+Funcionalidades para consumidores
+Criação de pedidos ou reservas;
+Gerenciamento dos próprios pedidos ou reservas.
+Funcionalidades administrativas
+Gerenciamento de usuários;
+Gerenciamento de feirantes;
+Gerenciamento de produtos;
+Controle das informações da plataforma conforme as permissões administrativas.
+Integração
+Backend desenvolvido com Strapi;
+API REST para comunicação entre frontend e backend;
+Persistência dos dados;
+Interface web responsiva.
+:spiral_calendar: Entidades ou tabelas do sistema
+
+As principais entidades previstas para o sistema são:
+
+Usuário — dados de autenticação e identificação;
+Perfil/Papel — definição do tipo de usuário e suas permissões;
+Feirante/Produtor — informações dos comerciantes e produtores locais;
+Produto — nome, descrição, preço, quantidade/disponibilidade e informações do produto;
+Imagem do Produto — imagens associadas aos produtos;
+Pedido — registro dos pedidos realizados pelos consumidores;
+Item do Pedido — produtos e quantidades associados a um pedido;
+Reserva — registro das reservas realizadas, caso esse fluxo seja adotado na implementação.
+
+As entidades deverão ser persistidas no Strapi e disponibilizadas ao frontend por meio de uma API REST.

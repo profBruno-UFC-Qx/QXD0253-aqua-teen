@@ -6,9 +6,9 @@ A Feira Digital é uma plataforma web destinada à divulgação e comercializaç
 
 ## :technologist: Membros da equipe
 
-- **Alfredo Borges do Nascimento Neto** — Matrícula: [informar] — Curso: Redes de Computadores
-- **Francisco Lucas Gomes Almeida** — Matrícula: [informar] — Curso: Redes de Computadores
-- **Ryan Lopes Braga Brito** — Matrícula: [informar] — Curso: Redes de Computadores
+- **Alfredo Borges do Nascimento Neto** — Matrícula: 564732 — Curso: Redes de Computadores
+- **Francisco Lucas Gomes Almeida** — Matrícula: 592740 — Curso: Engenharua de Software
+- **Ryan Lopes Braga Brito** — Matrícula: 578267 — Curso: Engenharia de Software
 
 ## :bulb: Objetivo Geral
 

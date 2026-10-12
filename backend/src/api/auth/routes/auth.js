@@ -1,0 +1,1 @@
+module.exports = { routes: [{ method:'POST', path:'/auth/register', handler:'auth.register', config:{ auth:false } }, { method:'GET', path:'/profile', handler:'profile.me', config:{auth:false,middlewares:['global::require-user']} }, { method:'PUT', path:'/profile', handler:'profile.update', config:{auth:false,middlewares:['global::require-user']} }] };

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.cache/
+.tmp/
+backend/.cache/
+backend/.tmp/
+backend/public/uploads/
+backend/.env
+frontend/.env

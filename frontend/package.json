@@ -1,0 +1,9 @@
+{
+  "name": "feira-digital-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "tsc -b && vite build", "lint": "eslint src --max-warnings=0", "typecheck": "tsc -b" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "react-router-dom": "latest", "lucide-react": "latest" },
+  "devDependencies": { "eslint": "latest", "@eslint/js": "latest", "typescript-eslint": "latest" }
+}
